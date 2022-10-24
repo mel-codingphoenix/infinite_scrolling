@@ -41,16 +41,13 @@ h1 {
 /* Image Container */
 .image-container {
     margin: 10px 30%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
 }
 
 .image-container img {
-    background-size: cover;
+    border-radius: 10px;
     width: 100%;
     /* image resize */
-    object-fit: cover;
+    object-fit: fill;
     max-height: 100%;
     transition: all 1s ease-in-out;
 }
